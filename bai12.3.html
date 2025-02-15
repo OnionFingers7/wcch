@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Thực Hành B12-Bài 3</title>
+	<link rel="icon" type="image/x-con" href="hbt.ico">
+</head>
+<body style="background-color: wheat;">
+	<h1 align="center" style="color: red;">Thực Hành Bài 12 - Bài 3</h1>
+<form>
+	<legend>ĐĂNG KÍ THÀNH VIÊN CÂU LẠC BỘ THỂ THAO</legend>
+	<fieldset style="width:fit-content;">
+		<table>
+			<tr> <td colspan="2" align="center"> <input type="button" value="Lời Chào"></td></tr>
+            <tr>
+            	<td>
+            		<label for="hovaten">Họ tên:</label></td>
+<td>            		<input type="text" name="hovaten">
+            	</td>
+            </tr> 
+            <tr>
+            	<td><label for="password">Mật khẩu:</label></td>
+            	<td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+            	<td><label for="birthday">Ngày sinh:</label></td>
+            	<td><input type="date" name="birthday"></td>
+            </tr>
+            <tr>
+            	<td><label for="address">Địa chỉ:</label></td><td><textarea name="address" id="address" rows="5" cols="20"></textarea>
+            	 </td>
+            </tr>
+            <tr>
+            	<td><label for="sex">Giới tính:</td>
+            	<td>
+            		<input id="gioitinh1" type="radio" name="gioitinh">
+            		<label for="gioitinh1">Nam</label>
+            		<input id="gioitinh2" type="radio" name="gioitinh">
+            		<label>Nữ</label>
+            	</td>
+            </tr>
+            <tr>
+            	<td><label for="hobby">Sở thích:</label></td>
+            	<td>
+            		<input type="checkbox" name="chess" id="chess">
+            		<label for="chess">Cờ vua</label><br>
+            		<input type="checkbox" name="videogames" id="videogames">
+            		<label for="videogames">Trờ chơi điện tử</label><br>
+            		<input type="checkbox" name="travelling" id="travelling">
+            		<label for="travelling">Du lịch</label><br>
+            		<input type="checkbox" name="flower" id="flower">
+            		<label for="flower">Cắm hoa</label><br>
+            		<input type="checkbox" name="cooking" id="cooking">
+            		<label for="cooking">Nấu ăn</label><br>
+            	</td>
+            </tr>
+            <tr><td><label for="resume">Hồ sơ đính kèm:</td><td>
+            	<input type="file" name="resume" id="resume">
+            </td></tr>
+            <tr>
+            	<td><label for="clbc">Đăng kí CLB:</td>
+            	<td>
+            		<select id="clbc" name="clbc">
+            			<option value="soccerr">Bóng đá</option>
+            			<option value="pingpong">Bóng bàn</option>
+            			<option value="basketball">Bóng rổ</option>
+            			<option value="volleyball">Bóng chuyền</option>
+            			<option value="badminton">Cầu lông</option>
+            			<option value="swimming">Bơi lội</option>
+            			<option value="martialarts">Võ thuật</option>
+            		</select>
+            	</td>
+            	<tr><td><input type="submit" value="Gửi đơn đăng kí"></td></tr>
+            </tr>
+		</table>
+	</fieldset>
+</form>
+</body>
+</html>
